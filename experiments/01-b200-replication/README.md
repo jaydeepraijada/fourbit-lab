@@ -5,8 +5,8 @@
 numbers when we run their code ourselves?
 
 **Answer.** The speed reproduces. The loss results reproduce only in part: 4-bit training is consistently a little
-worse than BF16, but the gap is about three times larger in our runs, and two of the published comparisons flip
-direction when rerun.
+worse than BF16, by about 0.4%, but the runs are too noisy to pin the size down, and two of the published
+comparisons flip direction when rerun.
 
 **Status.** Complete. Every published run has been repeated.
 
@@ -25,10 +25,11 @@ per step against 10.7 ms for 8-bit, but preparing their inputs takes 8.8 ms agai
 pass ends up slower than the 8-bit one (18.1 ms against 17.6 ms). At width 8,192 the multiply saving wins, and the
 MLP forward pass is 16% faster. The MLP is about 39% of a step, which caps the gain in any case.
 
-**4-bit costs loss, and the cost is larger for us than upstream reports.** At width 4,096, averaged over two seeds,
-4-bit ends 0.0096 above BF16 (1.6936 against 1.6840). Upstream's four runs give 0.0031. Taking all eight runs
-together, every 4-bit run (1.6910 to 1.6940) is worse than every BF16 run (1.6823 to 1.6886). At width 8,192 the
-gap is 0.029, or 1.2%.
+**4-bit costs a little loss, and the size is not pinned down.** At width 4,096, every 4-bit run (1.6910 to 1.6940)
+ends worse than every BF16 run (1.6823 to 1.6886), counting our four runs and upstream's four. The average gap over
+all eight is 0.006, or 0.4%. Our two seeds give 0.0096 and upstream's give 0.0031, but a run with the same seed
+differs between us and upstream by 0.002 to 0.005, so two seeds each cannot show that our gap is really larger.
+At width 8,192 the gap is 0.029, or 1.2%, from one run per arm.
 
 **Runs at width 4,096 are not repeatable, and the spread is as large as most differences between arms.** With the
 same seed and code, our final losses differ from upstream's by up to 0.005. The cause is measurable: running the
