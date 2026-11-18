@@ -1,0 +1,16 @@
+{
+ "val": {
+  "bytes": 19447282,
+  "stories": 21990,
+  "tokens": 4667152,
+  "seconds": 1.9,
+  "distinct_tokens": 12610
+ },
+ "train": {
+  "bytes": 603979776,
+  "stories": 658557,
+  "tokens": 144724688,
+  "seconds": 50.5,
+  "distinct_tokens": 25045
+ }
+}
