@@ -19,5 +19,4 @@ Each experiment folder has its own README with what was run, our measured result
 ## Credits
 
 Experiment 01 runs code written by Dr. Raj Dandekar and the team at [Vizuara AI Labs](https://vizuara.ai), from
-[VizuaraAI/4bit-training-b200](https://github.com/VizuaraAI/4bit-training-b200). See that experiment's README for
-exactly which files are theirs and which results are ours.
+[VizuaraAI/4bit-training-b200](https://github.com/VizuaraAI/4bit-training-b200).
