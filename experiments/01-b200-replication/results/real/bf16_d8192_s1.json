@@ -1,0 +1,101 @@
+{
+ "arm": "bf16",
+ "d": 8192,
+ "layers": 4,
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "steps": 1000,
+ "lr": 0.0001,
+ "seed": 1,
+ "tag": "bf16_d8192_s1",
+ "gpu": "NVIDIA B200",
+ "n_params": 3290578944,
+ "n_mlp_params": 2147483648,
+ "vocab": 8192,
+ "vocab_coverage": 0.9978546369365813,
+ "log": [
+  {
+   "step": 0,
+   "train_s": 0.0,
+   "val": 10.8584,
+   "train": 0.0
+  },
+  {
+   "step": 100,
+   "train_s": 55.2,
+   "val": 5.0377,
+   "train": 6.4178
+  },
+  {
+   "step": 200,
+   "train_s": 116.94,
+   "val": 3.9049,
+   "train": 4.4194
+  },
+  {
+   "step": 300,
+   "train_s": 178.7,
+   "val": 3.4494,
+   "train": 3.6809
+  },
+  {
+   "step": 400,
+   "train_s": 240.48,
+   "val": 3.0775,
+   "train": 3.2364
+  },
+  {
+   "step": 500,
+   "train_s": 302.26,
+   "val": 2.8489,
+   "train": 2.9547
+  },
+  {
+   "step": 600,
+   "train_s": 363.85,
+   "val": 2.6841,
+   "train": 2.7622
+  },
+  {
+   "step": 700,
+   "train_s": 425.64,
+   "val": 2.5681,
+   "train": 2.6087
+  },
+  {
+   "step": 800,
+   "train_s": 487.37,
+   "val": 2.4705,
+   "train": 2.4983
+  },
+  {
+   "step": 900,
+   "train_s": 549.21,
+   "val": 2.4065,
+   "train": 2.4179
+  },
+  {
+   "step": 1000,
+   "train_s": 611.09,
+   "val": 2.3695,
+   "train": 2.3692
+  }
+ ],
+ "final_val": 2.3719,
+ "samples": [
+  {
+   "prompt": "Once upon a time",
+   "text": "Once upon a time, there was a little girl named Lily. She loved to play in the park with her friends. One day, Lily and her friends were playing hide and seek, but Lily's friends were having a great time. Lily was scared of the dark and she wanted to go home.\nBut her mom said, \"Don't worry, Lily. The wind'll protect your hair.\" Lily gave her a hug and said, \"You're safe too.\"\nLily felt better and said, \"I can't wait to go back to sleep.\"\nShe went back home with her mom. But then she remembered her mom's words. She promised to take a bathtub and play with her."
+  },
+  {
+   "prompt": "One day, a little girl named Lily",
+   "text": "One day, a little girl named Lily went for a walk in the woods. She saw a big, blue rock and pretty flowers. Lily wanted to take a closer look. She took the rock to her jacket and started to weep.\n\"I want to go home too,\" said her mom.\n\"Don't worry, Lily. I'll help you,\" said her mom.\nThe boy was very happy and thanked Lily. Lily took a deep breath and hugged it tightly.\n\"No, thank you, thank you!\" said the big boy.\n\"I want to go back home now, Lily. I want to see,\" said the boy.\nThe boy smiled and waved goodbye, and the boy waved back. He walked back home and waved goodbye to the big rock"
+  },
+  {
+   "prompt": "Tom had a big red ball.",
+   "text": "Tom had a big red ball. It was a small piece of paper that could bounce it in the sky. Tommy was a happy boy and he always wanted to win more. So, he went to the store and bought a big red ball to school. It was a big, blue ball and shiny and round.\nTommy was so excited to try the ball. He asked his friend, \"Can I play with the ball?\"\nTommy said, \"Yes, you can!\" So he put it on and Tommy went over the sack.\nTommy smiled and said, \"Let's play the violin!\" Tommy smiled and they played together. They had so much fun and laughed until it was time to watch the basketball go. When it went he was tired, he said"
+  }
+ ],
+ "median_step_ms": 616.87,
+ "train_seconds": 611.1
+}

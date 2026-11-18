@@ -1,0 +1,108 @@
+{
+ "gpu": "NVIDIA B200",
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "layers": 4,
+ "vocab_coverage": 0.9978546369365813,
+ "rows": [
+  {
+   "d": 2048,
+   "bf16": {
+    "step_ms": 53.65,
+    "forward_ms": 17.67,
+    "backward_ms": 34.12,
+    "optimizer_ms": 1.73,
+    "first_loss": 9.444,
+    "last_loss": 5.894,
+    "params": 218664960
+   },
+   "fp8": {
+    "step_ms": 45.88,
+    "forward_ms": 15.11,
+    "backward_ms": 28.87,
+    "optimizer_ms": 1.73,
+    "first_loss": 9.445,
+    "last_loss": 5.892,
+    "params": 218664960,
+    "speedup_vs_bf16": 1.169
+   },
+   "nvfp4": {
+    "step_ms": 46.09,
+    "forward_ms": 15.84,
+    "backward_ms": 28.31,
+    "optimizer_ms": 1.71,
+    "first_loss": 9.455,
+    "last_loss": 5.885,
+    "params": 218664960,
+    "speedup_vs_bf16": 1.164,
+    "speedup_vs_fp8": 0.995
+   }
+  },
+  {
+   "d": 4096,
+   "bf16": {
+    "step_ms": 161.76,
+    "forward_ms": 53.19,
+    "backward_ms": 101.48,
+    "optimizer_ms": 6.5,
+    "first_loss": 9.697,
+    "last_loss": 6.035,
+    "params": 839983104
+   },
+   "fp8": {
+    "step_ms": 127.77,
+    "forward_ms": 40.48,
+    "backward_ms": 80.13,
+    "optimizer_ms": 6.29,
+    "first_loss": 9.689,
+    "last_loss": 6.03,
+    "params": 839983104,
+    "speedup_vs_bf16": 1.266
+   },
+   "nvfp4": {
+    "step_ms": 125.32,
+    "forward_ms": 40.89,
+    "backward_ms": 78.93,
+    "optimizer_ms": 6.2,
+    "first_loss": 9.683,
+    "last_loss": 5.966,
+    "params": 839983104,
+    "speedup_vs_bf16": 1.291,
+    "speedup_vs_fp8": 1.02
+   }
+  },
+  {
+   "d": 8192,
+   "bf16": {
+    "step_ms": 579.98,
+    "forward_ms": 170.89,
+    "backward_ms": 382.27,
+    "optimizer_ms": 26.47,
+    "first_loss": 10.871,
+    "last_loss": 6.506,
+    "params": 3290578944
+   },
+   "fp8": {
+    "step_ms": 442.32,
+    "forward_ms": 128.95,
+    "backward_ms": 285.94,
+    "optimizer_ms": 25.98,
+    "first_loss": 10.879,
+    "last_loss": 7.077,
+    "params": 3290578944,
+    "speedup_vs_bf16": 1.311
+   },
+   "nvfp4": {
+    "step_ms": 424.77,
+    "forward_ms": 116.53,
+    "backward_ms": 281.94,
+    "optimizer_ms": 25.2,
+    "first_loss": 10.887,
+    "last_loss": 7.142,
+    "params": 3290578944,
+    "speedup_vs_bf16": 1.365,
+    "speedup_vs_fp8": 1.041
+   }
+  }
+ ]
+}

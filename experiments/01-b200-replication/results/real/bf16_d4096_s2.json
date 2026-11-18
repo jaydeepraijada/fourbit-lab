@@ -1,0 +1,161 @@
+{
+ "arm": "bf16",
+ "d": 4096,
+ "layers": 4,
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "steps": 2000,
+ "lr": 0.0002,
+ "seed": 2,
+ "tag": "bf16_d4096_s2",
+ "gpu": "NVIDIA B200",
+ "n_params": 839983104,
+ "n_mlp_params": 536870912,
+ "vocab": 8192,
+ "vocab_coverage": 0.9978546369365813,
+ "log": [
+  {
+   "step": 0,
+   "train_s": 0.0,
+   "val": 9.9961,
+   "train": 0.0
+  },
+  {
+   "step": 100,
+   "train_s": 15.02,
+   "val": 4.0814,
+   "train": 5.4687
+  },
+  {
+   "step": 200,
+   "train_s": 31.71,
+   "val": 3.2323,
+   "train": 3.7641
+  },
+  {
+   "step": 300,
+   "train_s": 48.46,
+   "val": 2.8101,
+   "train": 3.0263
+  },
+  {
+   "step": 400,
+   "train_s": 65.25,
+   "val": 2.5324,
+   "train": 2.6602
+  },
+  {
+   "step": 500,
+   "train_s": 82.07,
+   "val": 2.3496,
+   "train": 2.4311
+  },
+  {
+   "step": 600,
+   "train_s": 98.89,
+   "val": 2.2236,
+   "train": 2.2743
+  },
+  {
+   "step": 700,
+   "train_s": 115.68,
+   "val": 2.1249,
+   "train": 2.1529
+  },
+  {
+   "step": 800,
+   "train_s": 132.48,
+   "val": 2.0507,
+   "train": 2.0635
+  },
+  {
+   "step": 900,
+   "train_s": 149.32,
+   "val": 1.9848,
+   "train": 1.9958
+  },
+  {
+   "step": 1000,
+   "train_s": 166.1,
+   "val": 1.9301,
+   "train": 1.9363
+  },
+  {
+   "step": 1100,
+   "train_s": 182.92,
+   "val": 1.8855,
+   "train": 1.8847
+  },
+  {
+   "step": 1200,
+   "train_s": 199.73,
+   "val": 1.8462,
+   "train": 1.8391
+  },
+  {
+   "step": 1300,
+   "train_s": 216.54,
+   "val": 1.8101,
+   "train": 1.7964
+  },
+  {
+   "step": 1400,
+   "train_s": 233.36,
+   "val": 1.7811,
+   "train": 1.765
+  },
+  {
+   "step": 1500,
+   "train_s": 250.15,
+   "val": 1.7529,
+   "train": 1.734
+  },
+  {
+   "step": 1600,
+   "train_s": 266.95,
+   "val": 1.7316,
+   "train": 1.7101
+  },
+  {
+   "step": 1700,
+   "train_s": 283.79,
+   "val": 1.7129,
+   "train": 1.6814
+  },
+  {
+   "step": 1800,
+   "train_s": 300.6,
+   "val": 1.6994,
+   "train": 1.6663
+  },
+  {
+   "step": 1900,
+   "train_s": 317.43,
+   "val": 1.6883,
+   "train": 1.6503
+  },
+  {
+   "step": 2000,
+   "train_s": 334.28,
+   "val": 1.6795,
+   "train": 1.6388
+  }
+ ],
+ "final_val": 1.6823,
+ "samples": [
+  {
+   "prompt": "Once upon a time",
+   "text": "Once upon a time, there was a little girl named Lily. She loved to play at the park with her friends. One day, Lily saw a big, strong dog on the grass. She was scared and didn't know what to do. \nLily's friend, Timmy, came over. He saw that Tom was scared and asked, \"What's wrong, Lily?\" \nLily said, \"There is a big dog on the grass. I'm scared, so I don't like it.\" \nTim said, \"Don't worry, Lily. I will be here to help you.\" \nTogether, they walked past the dog and the dog. It was grateful to have a friend like Lily. From that day on, Lily"
+  },
+  {
+   "prompt": "One day, a little girl named Lily",
+   "text": "One day, a little girl named Lily went for a walk in the woods. She saw a big, tall tree. Her mom said, \"Lily, let's walk to the tree. We can rest here.\"\nLily felt a little bit better. She saw a little bird on the tree. The bird was scared. Lily said, \"Don't be scared. I will help you.\" The bird flew down and picked a little bird.\nLily hugged the bird and said, \"Thank you, bird! You are so kind.\" The bird chirped happily and flew away. Lily felt happy too.\nLily smiled and said, \"Goodbye, bird. I love you.\" She picked up the bird and put it in a cozy nest. She felt"
+  },
+  {
+   "prompt": "Tom had a big red ball.",
+   "text": "Tom had a big red ball. He loved to play with it every day. He would roll it, bounce it, and bounce it. He was very happy.\nOne day, Tom saw a new toy in the store. It was a big, shiny ball. It belonged to his grandma, who was sick. She looked at it and said, \"I want that ball. It is mine. Go away.\"\nTom felt sad and angry. He did not want to change his toys. He thought they were dull and mean. He said, \"No, no, no! I want this ball. It is mine.\"\nLily tried to grab the ball from Tom, but he held it tight. They started to fight and yell. They did not hear Tom yelling"
+  }
+ ],
+ "median_step_ms": 167.84,
+ "train_seconds": 334.3
+}

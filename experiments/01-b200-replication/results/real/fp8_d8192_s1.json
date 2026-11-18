@@ -1,0 +1,101 @@
+{
+ "arm": "fp8",
+ "d": 8192,
+ "layers": 4,
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "steps": 1000,
+ "lr": 0.0001,
+ "seed": 1,
+ "tag": "fp8_d8192_s1",
+ "gpu": "NVIDIA B200",
+ "n_params": 3290578944,
+ "n_mlp_params": 2147483648,
+ "vocab": 8192,
+ "vocab_coverage": 0.9978546369365813,
+ "log": [
+  {
+   "step": 0,
+   "train_s": 0.0,
+   "val": 10.8669,
+   "train": 0.0
+  },
+  {
+   "step": 100,
+   "train_s": 43.11,
+   "val": 4.5883,
+   "train": 6.326
+  },
+  {
+   "step": 200,
+   "train_s": 90.94,
+   "val": 3.9286,
+   "train": 4.3626
+  },
+  {
+   "step": 300,
+   "train_s": 138.83,
+   "val": 3.4441,
+   "train": 3.6671
+  },
+  {
+   "step": 400,
+   "train_s": 186.76,
+   "val": 3.0679,
+   "train": 3.23
+  },
+  {
+   "step": 500,
+   "train_s": 234.64,
+   "val": 2.8599,
+   "train": 2.9587
+  },
+  {
+   "step": 600,
+   "train_s": 282.62,
+   "val": 2.6907,
+   "train": 2.7679
+  },
+  {
+   "step": 700,
+   "train_s": 330.43,
+   "val": 2.5711,
+   "train": 2.6129
+  },
+  {
+   "step": 800,
+   "train_s": 378.27,
+   "val": 2.4736,
+   "train": 2.5025
+  },
+  {
+   "step": 900,
+   "train_s": 426.17,
+   "val": 2.4094,
+   "train": 2.4218
+  },
+  {
+   "step": 1000,
+   "train_s": 473.9,
+   "val": 2.3713,
+   "train": 2.3728
+  }
+ ],
+ "final_val": 2.3745,
+ "samples": [
+  {
+   "prompt": "Once upon a time",
+   "text": "Once upon a time, there was a little girl named Lily. She loved to play in the park with her friends. One day, while they were playing, they found a big, shiny thing on the ground. It was like a big slide that looked like a treasure chest.\nLily's friend, Tom, said, \"Let's build something fun!\" Lily said, \"Okay, let's play a game. Let's build a game to play!\"\nThey played a game, and when suddenly, a big dog came running. The dog said, \"Wow, this is so cool!\" Lily and Tom played catch the ball and had so much fun. They learned that sharing is not good to be popular, but not too big. The dog was mean"
+  },
+  {
+   "prompt": "One day, a little girl named Lily",
+   "text": "One day, a little girl named Lily went to the park with her mom. They saw a big, green grass and pretty flowers and lots of flowers. Lily wanted to feed them, but she was scared. She took a deep breath and tried to pull the flowers.\nSuddenly, a kind lady walked up to the bench and said, \"Hi, Lily! Stop you\" to the scary horse!\" The lady looked at the sun and said, \"I am much better!\"\nThe lady smiled and said, \"Hello, Lily. It's your name!\" Lily said, \"You're such a good friend to play with you.\"\nThe lady was surprised by the sun and said, \"Thank you, Lily. You are a good friend.\"\nLily and the kind lady"
+  },
+  {
+   "prompt": "Tom had a big red ball.",
+   "text": "Tom had a big red ball. It was a red ball that could bounce high up in the sky. It was very quiet with its big wheels. He could reach it.\nOne day, a little girl named Lily went to the park to play. She saw a big, red ball and wanted to catch it. She looked around and looked at it. She smiled and said hello.\nBut then her mom came in. She said he was being rude. She said she was not nice to share with others. Tom took the ball and ran around the park with her. Lily was sad and hugged the ball.\nTom told Lily that the ball was not nice to her friend, Tom felt bad. He did not say anything. They played together. They did not want to"
+  }
+ ],
+ "median_step_ms": 478.48,
+ "train_seconds": 473.9
+}

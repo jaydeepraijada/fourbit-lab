@@ -1,0 +1,161 @@
+{
+ "arm": "nvfp4_rtn",
+ "d": 4096,
+ "layers": 4,
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "steps": 2000,
+ "lr": 0.0002,
+ "seed": 1,
+ "tag": "nvfp4_rtn_d4096_s1",
+ "gpu": "NVIDIA B200",
+ "n_params": 839983104,
+ "n_mlp_params": 536870912,
+ "vocab": 8192,
+ "vocab_coverage": 0.9978546369365813,
+ "log": [
+  {
+   "step": 0,
+   "train_s": 0.0,
+   "val": 9.6871,
+   "train": 0.0
+  },
+  {
+   "step": 100,
+   "train_s": 11.79,
+   "val": 4.1672,
+   "train": 5.429
+  },
+  {
+   "step": 200,
+   "train_s": 24.77,
+   "val": 3.2539,
+   "train": 3.7843
+  },
+  {
+   "step": 300,
+   "train_s": 37.79,
+   "val": 2.8187,
+   "train": 3.0461
+  },
+  {
+   "step": 400,
+   "train_s": 50.81,
+   "val": 2.5439,
+   "train": 2.673
+  },
+  {
+   "step": 500,
+   "train_s": 63.84,
+   "val": 2.3587,
+   "train": 2.4415
+  },
+  {
+   "step": 600,
+   "train_s": 76.89,
+   "val": 2.2313,
+   "train": 2.2869
+  },
+  {
+   "step": 700,
+   "train_s": 89.95,
+   "val": 2.1311,
+   "train": 2.1637
+  },
+  {
+   "step": 800,
+   "train_s": 102.95,
+   "val": 2.0552,
+   "train": 2.074
+  },
+  {
+   "step": 900,
+   "train_s": 116.01,
+   "val": 1.9937,
+   "train": 2.0003
+  },
+  {
+   "step": 1000,
+   "train_s": 129.07,
+   "val": 1.9392,
+   "train": 1.9429
+  },
+  {
+   "step": 1100,
+   "train_s": 142.12,
+   "val": 1.8941,
+   "train": 1.8909
+  },
+  {
+   "step": 1200,
+   "train_s": 155.12,
+   "val": 1.853,
+   "train": 1.8514
+  },
+  {
+   "step": 1300,
+   "train_s": 168.17,
+   "val": 1.8173,
+   "train": 1.8044
+  },
+  {
+   "step": 1400,
+   "train_s": 181.21,
+   "val": 1.7888,
+   "train": 1.7741
+  },
+  {
+   "step": 1500,
+   "train_s": 194.25,
+   "val": 1.7616,
+   "train": 1.7387
+  },
+  {
+   "step": 1600,
+   "train_s": 207.26,
+   "val": 1.7386,
+   "train": 1.7251
+  },
+  {
+   "step": 1700,
+   "train_s": 220.28,
+   "val": 1.7211,
+   "train": 1.6905
+  },
+  {
+   "step": 1800,
+   "train_s": 233.29,
+   "val": 1.7065,
+   "train": 1.6764
+  },
+  {
+   "step": 1900,
+   "train_s": 246.31,
+   "val": 1.6957,
+   "train": 1.6622
+  },
+  {
+   "step": 2000,
+   "train_s": 259.33,
+   "val": 1.6872,
+   "train": 1.6504
+  }
+ ],
+ "final_val": 1.6903,
+ "samples": [
+  {
+   "prompt": "Once upon a time",
+   "text": "Once upon a time, there was a little girl named Lily. She loved to play in her backyard. One day, she saw a shiny ball and wanted to play with it. She called her friend, Tom.\nTom came over and asked, \"Can I play with the ball?\" Tom said, \"Yes, but be careful not to break it.\"\nLily played with the ball for a while, but then she saw her neighbor's cat. She felt happy and excited to meet her. She said, \"Hi Tom! I like to play with my cat. Do you want to come inside and play with me?\" Tom said, \"Yes, let's play!\"\nThey went inside the house and Tom played with the cat. They had so much"
+  },
+  {
+   "prompt": "One day, a little girl named Lily",
+   "text": "One day, a little girl named Lily went for a walk in the woods. She saw a big, green tree with pretty leaves. Lily wanted to climb the tree and see the sky.\nLily started to walk up the tree, but it was hard. She saw big, green grass and small clouds. She felt scared. She did not like the dark trees, the soft leaves and the soft grass. She heard a rustle in the bushes.\nLily was not scared. She peeked out from behind the tree. It was a big, grey mouse. Lily was afraid. She wanted to get closer to the mouse.\n\"Help, help!\" Lily shouted. \"The mouse is scared!\"\nA little bird heard Lily and flew down to the tree. The"
+  },
+  {
+   "prompt": "Tom had a big red ball.",
+   "text": "Tom had a big red ball. He loved to kick it around and play with his friends. One day, he saw a big dog in the park. The dog was brown and furry. He came to Tom and kicked the ball with his mouth. The ball flew high in the sky and made a loud noise.\n\"Hey, dog!\" Tom said. \"Can you kick me? I want to see the dog and the ball.\"\nThe dog did not listen. He kicked the ball with his mouth and ran away. Tom's red ball rolled into a tree. He felt a little guilty. He looked at the tree and saw that the ball was not happy. The dog was angry.\n\"Hey, you! That's my ball!\" he shouted. \"Give it"
+  }
+ ],
+ "median_step_ms": 129.9,
+ "train_seconds": 259.3
+}

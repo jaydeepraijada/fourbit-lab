@@ -1,0 +1,161 @@
+{
+ "arm": "fp8",
+ "d": 4096,
+ "layers": 4,
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "steps": 2000,
+ "lr": 0.0002,
+ "seed": 1,
+ "tag": "fp8_d4096_s1",
+ "gpu": "NVIDIA B200",
+ "n_params": 839983104,
+ "n_mlp_params": 536870912,
+ "vocab": 8192,
+ "vocab_coverage": 0.9978546369365813,
+ "log": [
+  {
+   "step": 0,
+   "train_s": 0.0,
+   "val": 9.6953,
+   "train": 0.0
+  },
+  {
+   "step": 100,
+   "train_s": 11.89,
+   "val": 4.0203,
+   "train": 5.4205
+  },
+  {
+   "step": 200,
+   "train_s": 25.08,
+   "val": 3.3053,
+   "train": 3.784
+  },
+  {
+   "step": 300,
+   "train_s": 38.3,
+   "val": 2.8147,
+   "train": 3.0494
+  },
+  {
+   "step": 400,
+   "train_s": 51.54,
+   "val": 2.5454,
+   "train": 2.6746
+  },
+  {
+   "step": 500,
+   "train_s": 64.8,
+   "val": 2.3713,
+   "train": 2.4473
+  },
+  {
+   "step": 600,
+   "train_s": 78.04,
+   "val": 2.2446,
+   "train": 2.2966
+  },
+  {
+   "step": 700,
+   "train_s": 91.31,
+   "val": 2.1414,
+   "train": 2.173
+  },
+  {
+   "step": 800,
+   "train_s": 104.56,
+   "val": 2.0607,
+   "train": 2.0815
+  },
+  {
+   "step": 900,
+   "train_s": 117.83,
+   "val": 1.9999,
+   "train": 2.0073
+  },
+  {
+   "step": 1000,
+   "train_s": 131.11,
+   "val": 1.9429,
+   "train": 1.9485
+  },
+  {
+   "step": 1100,
+   "train_s": 144.35,
+   "val": 1.8975,
+   "train": 1.8954
+  },
+  {
+   "step": 1200,
+   "train_s": 157.6,
+   "val": 1.8542,
+   "train": 1.8546
+  },
+  {
+   "step": 1300,
+   "train_s": 170.81,
+   "val": 1.819,
+   "train": 1.8069
+  },
+  {
+   "step": 1400,
+   "train_s": 184.02,
+   "val": 1.79,
+   "train": 1.7755
+  },
+  {
+   "step": 1500,
+   "train_s": 197.27,
+   "val": 1.7611,
+   "train": 1.7392
+  },
+  {
+   "step": 1600,
+   "train_s": 210.51,
+   "val": 1.7405,
+   "train": 1.7258
+  },
+  {
+   "step": 1700,
+   "train_s": 223.74,
+   "val": 1.721,
+   "train": 1.6912
+  },
+  {
+   "step": 1800,
+   "train_s": 236.98,
+   "val": 1.7067,
+   "train": 1.6759
+  },
+  {
+   "step": 1900,
+   "train_s": 250.23,
+   "val": 1.6956,
+   "train": 1.6614
+  },
+  {
+   "step": 2000,
+   "train_s": 263.47,
+   "val": 1.6871,
+   "train": 1.6497
+  }
+ ],
+ "final_val": 1.6904,
+ "samples": [
+  {
+   "prompt": "Once upon a time",
+   "text": "Once upon a time, there was a little girl named Lucy. She loved to play in her backyard. One day, she saw a big pile of leaves. She wanted to jump in it.\nLucy's mom saw her looking and said, \"Lucy, don't jump in the leaves. It's not safe.\"\nLucy looked sad. \"Why is it not safe?\" she asked.\nHer mom shook her head. \"I don't know,\" she said. \"Maybe when the leaves will go away.\"\nLucy's mom had an idea. She let Lucy use her special belt. \"Let's put the belt on the ground. Then you have to jump into the leaves and give me your belt.\"\nLucy thought about it"
+  },
+  {
+   "prompt": "One day, a little girl named Lily",
+   "text": "One day, a little girl named Lily went for a walk in the woods. She saw a big, green tree with pretty leaves. Lily wanted to climb the tree and see if she could.\nLily climbed the tree and saw a big, green, yellow squirrel. \"Hello, Mr. Squirrel,\" she said. \"Do you want to climb the tree and explore the forest?\" The squirrel nodded and they both climbed the tree together. From that day on, they were good friends and went on many fun adventures together."
+  },
+  {
+   "prompt": "Tom had a big red ball.",
+   "text": "Tom had a big red ball. He loved to play with it every day. He would roll it, bounce it, and bounce it. His friends liked to tease him.\nOne day, Tom had a big idea. He wanted to make a big ball out of the big red ball. He rolled it to his friends, who were nearby. They did not like to see Tom's red ball. They thought Tom was crazy.\nTom's friends did not like to share his big red ball. He wanted to play with them. He pushed his big red ball away. His friends stopped to look at him. They felt scared. They did not want to play with Tom anymore.\nTom played with his red ball. He saw a shiny red ball. He threw it to"
+  }
+ ],
+ "median_step_ms": 131.85,
+ "train_seconds": 263.5
+}

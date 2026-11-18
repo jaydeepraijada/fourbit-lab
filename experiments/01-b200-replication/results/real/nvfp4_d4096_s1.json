@@ -1,0 +1,161 @@
+{
+ "arm": "nvfp4",
+ "d": 4096,
+ "layers": 4,
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "steps": 2000,
+ "lr": 0.0002,
+ "seed": 1,
+ "tag": "nvfp4_d4096_s1",
+ "gpu": "NVIDIA B200",
+ "n_params": 839983104,
+ "n_mlp_params": 536870912,
+ "vocab": 8192,
+ "vocab_coverage": 0.9978546369365813,
+ "log": [
+  {
+   "step": 0,
+   "train_s": 0.0,
+   "val": 9.6871,
+   "train": 0.0
+  },
+  {
+   "step": 100,
+   "train_s": 11.64,
+   "val": 4.1939,
+   "train": 5.4342
+  },
+  {
+   "step": 200,
+   "train_s": 24.56,
+   "val": 3.2726,
+   "train": 3.7877
+  },
+  {
+   "step": 300,
+   "train_s": 37.48,
+   "val": 2.8201,
+   "train": 3.0442
+  },
+  {
+   "step": 400,
+   "train_s": 50.41,
+   "val": 2.5444,
+   "train": 2.6738
+  },
+  {
+   "step": 500,
+   "train_s": 63.38,
+   "val": 2.3596,
+   "train": 2.4443
+  },
+  {
+   "step": 600,
+   "train_s": 76.32,
+   "val": 2.2363,
+   "train": 2.2908
+  },
+  {
+   "step": 700,
+   "train_s": 89.27,
+   "val": 2.1383,
+   "train": 2.1678
+  },
+  {
+   "step": 800,
+   "train_s": 102.19,
+   "val": 2.0572,
+   "train": 2.0784
+  },
+  {
+   "step": 900,
+   "train_s": 115.14,
+   "val": 1.9969,
+   "train": 2.0044
+  },
+  {
+   "step": 1000,
+   "train_s": 128.07,
+   "val": 1.9416,
+   "train": 1.9462
+  },
+  {
+   "step": 1100,
+   "train_s": 141.02,
+   "val": 1.8989,
+   "train": 1.8946
+  },
+  {
+   "step": 1200,
+   "train_s": 153.94,
+   "val": 1.8564,
+   "train": 1.8546
+  },
+  {
+   "step": 1300,
+   "train_s": 166.87,
+   "val": 1.82,
+   "train": 1.8076
+  },
+  {
+   "step": 1400,
+   "train_s": 179.82,
+   "val": 1.792,
+   "train": 1.777
+  },
+  {
+   "step": 1500,
+   "train_s": 192.74,
+   "val": 1.7642,
+   "train": 1.7416
+  },
+  {
+   "step": 1600,
+   "train_s": 205.67,
+   "val": 1.7427,
+   "train": 1.7276
+  },
+  {
+   "step": 1700,
+   "train_s": 218.6,
+   "val": 1.7234,
+   "train": 1.6931
+  },
+  {
+   "step": 1800,
+   "train_s": 231.51,
+   "val": 1.7097,
+   "train": 1.6788
+  },
+  {
+   "step": 1900,
+   "train_s": 244.43,
+   "val": 1.6988,
+   "train": 1.6645
+  },
+  {
+   "step": 2000,
+   "train_s": 257.35,
+   "val": 1.6902,
+   "train": 1.6526
+  }
+ ],
+ "final_val": 1.6932,
+ "samples": [
+  {
+   "prompt": "Once upon a time",
+   "text": "Once upon a time, there was a little girl named Lucy. She loved to play in her backyard. One day, she saw a big pile of leaves. She wanted to jump in them.\nLucy's mom saw her looking worried. She told Lucy, \"Lucy, it's not safe. You might fall and hurt yourself.\" Lucy felt sad but she listened to her mom. She climbed into her mom's lap and said, \"I feel safe here. Thank you for helping me.\"\nLucy's mom gave her a hug and said, \"You're welcome, Lucy. Now let's go outside and play in the yard. I have a safe and have fun.\" Lucy and her mom went outside and played in the leaves. They laughed and"
+  },
+  {
+   "prompt": "One day, a little girl named Lily",
+   "text": "One day, a little girl named Lily went for a walk in the woods. She saw a big, green wolf. The wolf was very pretty. Lily said, \"Hi, Mr. Bear! Do you want to play with me?\"\nThe wolf looked at Lily and said, \"I am a hungry, but I am very hungry. Can I have some food, please?\" Lily nodded and they both went to the kitchen.\nAfter they finished eating, Lily saw a big, juicy apple on the kitchen table. She was very happy and said to the wolf, \"I want that apple too, Mr. Wolf.\" The wolf gave her the apple and said, \"Thank you, Lily, you are very kind. I have been waiting for this apple to give to you.\""
+  },
+  {
+   "prompt": "Tom had a big red ball.",
+   "text": "Tom had a big red ball. He loved to play with it every day. He would throw it up in the air and catch it. He was very happy.\nOne day, Tom saw a new ball in the park. It was big and shiny. It had a long string and a shiny knob. Tom wanted to try it. He took the ball and ran to the park.\nBut he threw the ball too hard. The ball flew over the fence and landed on a big rock. Tom was sad. He did not want to do anything. He wanted to throw the ball. He looked at his old ball and his old ball. He looked at his old ball and his old ball. He saw a sign that said \"Do not kick\". He did not know what"
+  }
+ ],
+ "median_step_ms": 128.84,
+ "train_seconds": 257.3
+}

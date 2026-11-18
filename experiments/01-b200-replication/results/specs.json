@@ -1,0 +1,12 @@
+{
+ "smi": "Field \"pci.link.gen.max\" is not a valid field to query.\n\n",
+ "torch_name": "NVIDIA B200",
+ "sms": 148,
+ "total_memory_bytes": 191490555904,
+ "capability": "10.0",
+ "torch": "2.8.0+cu128",
+ "cuda_in_torch": "12.8",
+ "host": "CPU(s):              24\nModel name:          unknown\nThread(s) per core:  1\nCore(s) per socket:  24\nSocket(s):           1\n               total        used        free      shared  buff/cache   available\nMem:            1024           4        1019           0           3        1019\nWed Nov 18 04:32:39 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA B200                    On  |   00000000:63:00.0 Off |                    0 |\n| N/A   35C    P0            187W / 1000W |       4MiB / 183359MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\nCuda compilation tools, release 13.0, V13.0.48\nBuild cuda_13.0.r13.0/compiler.36260728_0\n",
+ "n_gpus": 1,
+ "cpus_visible": 24
+}

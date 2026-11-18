@@ -12,7 +12,7 @@ models and look for improvements.
 
 | # | Experiment | What it asks | Status |
 |:--|:--|:--|:--|
-| 01 | [B200 replication](experiments/01-b200-replication/) | Can we reproduce a published 4-bit training result on one NVIDIA B200? | In progress |
+| 01 | [B200 replication](experiments/01-b200-replication/) | Can we reproduce a published 4-bit training result on one NVIDIA B200? | Done: speed reproduces, loss comparisons only in part |
 
 Each experiment folder has its own README with what was run, our measured results, and how to run it again.
 

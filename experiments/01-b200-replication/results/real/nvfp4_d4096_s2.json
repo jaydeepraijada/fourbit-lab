@@ -1,0 +1,161 @@
+{
+ "arm": "nvfp4",
+ "d": 4096,
+ "layers": 4,
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "steps": 2000,
+ "lr": 0.0002,
+ "seed": 2,
+ "tag": "nvfp4_d4096_s2",
+ "gpu": "NVIDIA B200",
+ "n_params": 839983104,
+ "n_mlp_params": 536870912,
+ "vocab": 8192,
+ "vocab_coverage": 0.9978546369365813,
+ "log": [
+  {
+   "step": 0,
+   "train_s": 0.0,
+   "val": 9.9665,
+   "train": 0.0
+  },
+  {
+   "step": 100,
+   "train_s": 11.85,
+   "val": 4.109,
+   "train": 5.4814
+  },
+  {
+   "step": 200,
+   "train_s": 24.98,
+   "val": 3.2616,
+   "train": 3.7706
+  },
+  {
+   "step": 300,
+   "train_s": 38.11,
+   "val": 2.7945,
+   "train": 3.0248
+  },
+  {
+   "step": 400,
+   "train_s": 51.26,
+   "val": 2.5377,
+   "train": 2.6608
+  },
+  {
+   "step": 500,
+   "train_s": 64.5,
+   "val": 2.3579,
+   "train": 2.4382
+  },
+  {
+   "step": 600,
+   "train_s": 77.67,
+   "val": 2.2343,
+   "train": 2.2832
+  },
+  {
+   "step": 700,
+   "train_s": 90.84,
+   "val": 2.1344,
+   "train": 2.1623
+  },
+  {
+   "step": 800,
+   "train_s": 104.02,
+   "val": 2.0605,
+   "train": 2.0731
+  },
+  {
+   "step": 900,
+   "train_s": 117.2,
+   "val": 1.9949,
+   "train": 2.0066
+  },
+  {
+   "step": 1000,
+   "train_s": 130.4,
+   "val": 1.9422,
+   "train": 1.9464
+  },
+  {
+   "step": 1100,
+   "train_s": 143.54,
+   "val": 1.8967,
+   "train": 1.8962
+  },
+  {
+   "step": 1200,
+   "train_s": 156.71,
+   "val": 1.857,
+   "train": 1.8503
+  },
+  {
+   "step": 1300,
+   "train_s": 169.85,
+   "val": 1.8204,
+   "train": 1.8076
+  },
+  {
+   "step": 1400,
+   "train_s": 183.02,
+   "val": 1.7906,
+   "train": 1.7763
+  },
+  {
+   "step": 1500,
+   "train_s": 196.16,
+   "val": 1.7646,
+   "train": 1.7447
+  },
+  {
+   "step": 1600,
+   "train_s": 209.31,
+   "val": 1.7423,
+   "train": 1.7213
+  },
+  {
+   "step": 1700,
+   "train_s": 222.48,
+   "val": 1.7248,
+   "train": 1.6934
+  },
+  {
+   "step": 1800,
+   "train_s": 235.64,
+   "val": 1.7105,
+   "train": 1.6777
+  },
+  {
+   "step": 1900,
+   "train_s": 248.81,
+   "val": 1.6993,
+   "train": 1.6622
+  },
+  {
+   "step": 2000,
+   "train_s": 261.99,
+   "val": 1.6908,
+   "train": 1.6502
+  }
+ ],
+ "final_val": 1.694,
+ "samples": [
+  {
+   "prompt": "Once upon a time",
+   "text": "Once upon a time, there was a little girl named Lucy. She loved to play in her bedroom every day. One day, she found a long string in her mom's room. She thought it was fun to play with the string.\nLucy took the rope and started to play with it. She kicked it around and around, and it made a lot of noise. She felt like she was flying in the air.\nBut then, something terrible happened. Lucy turned into a messy little girl and her little brother became very sad. They both sat down, and Lucy had to decide what to do.\n\"Let's play a game,\" said Lucy.\n\"Why do you play?\" asked her brother.\n\"Because you try to play the game"
+  },
+  {
+   "prompt": "One day, a little girl named Lily",
+   "text": "One day, a little girl named Lily went for a walk in the woods. She saw a big, tall tree with pretty leaves and lots of shade. Lily was very happy to see the pretty tree on the high branches.\nAs Lily walked, she saw a squirrel. The squirrel was playing with a nut. Lily wanted to make a nut too. So, she stood on one side of the tree. The squirrel saw the nut too. It jumped to the squirrel and said, \"Hi, I am Lily. Can I help you?\"\nThe squirrel looked at Lily and said, \"Sure, little girl. Here, let me help you.\" So, Lily picked up the nut and took a leaf. She wrapped it with the leaf. Then, she put it in the leaf"
+  },
+  {
+   "prompt": "Tom had a big red ball.",
+   "text": "Tom had a big red ball. He loved to play with it every day. He would throw it up and down and watch it bounce. It was fun to roll with his ball.\nOne day, Tom went to the park with his mom. He brought his ball with him. While playing, he threw the balls too hard and it hit a tree. The ball flew up and up, up into the sky.\n\"Oh no!\" Tom cried. \"My ball is gone!\"\nHis mom looked at him. \"Oh no, I think I'm trying to help you. Don't worry, Tom,\" she said. \"I'll bring you another ball.\"\nTom felt better. He picked up his ball and ran to his friend's house. His friend smiled and"
+  }
+ ],
+ "median_step_ms": 131.16,
+ "train_seconds": 262.0
+}

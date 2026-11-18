@@ -1,0 +1,161 @@
+{
+ "arm": "bf16",
+ "d": 4096,
+ "layers": 4,
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "steps": 2000,
+ "lr": 0.0002,
+ "seed": 1,
+ "tag": "bf16_d4096_s1",
+ "gpu": "NVIDIA B200",
+ "n_params": 839983104,
+ "n_mlp_params": 536870912,
+ "vocab": 8192,
+ "vocab_coverage": 0.9978546369365813,
+ "log": [
+  {
+   "step": 0,
+   "train_s": 0.0,
+   "val": 9.7038,
+   "train": 0.0
+  },
+  {
+   "step": 100,
+   "train_s": 15.05,
+   "val": 4.1456,
+   "train": 5.4109
+  },
+  {
+   "step": 200,
+   "train_s": 31.68,
+   "val": 3.2371,
+   "train": 3.7642
+  },
+  {
+   "step": 300,
+   "train_s": 48.43,
+   "val": 2.7936,
+   "train": 3.0205
+  },
+  {
+   "step": 400,
+   "train_s": 65.18,
+   "val": 2.5341,
+   "train": 2.6548
+  },
+  {
+   "step": 500,
+   "train_s": 82.0,
+   "val": 2.3502,
+   "train": 2.4287
+  },
+  {
+   "step": 600,
+   "train_s": 98.8,
+   "val": 2.2278,
+   "train": 2.2784
+  },
+  {
+   "step": 700,
+   "train_s": 115.6,
+   "val": 2.1256,
+   "train": 2.1572
+  },
+  {
+   "step": 800,
+   "train_s": 132.43,
+   "val": 2.0497,
+   "train": 2.0672
+  },
+  {
+   "step": 900,
+   "train_s": 149.27,
+   "val": 1.9894,
+   "train": 1.9949
+  },
+  {
+   "step": 1000,
+   "train_s": 166.11,
+   "val": 1.9343,
+   "train": 1.937
+  },
+  {
+   "step": 1100,
+   "train_s": 182.95,
+   "val": 1.89,
+   "train": 1.8862
+  },
+  {
+   "step": 1200,
+   "train_s": 199.76,
+   "val": 1.8487,
+   "train": 1.8459
+  },
+  {
+   "step": 1300,
+   "train_s": 216.6,
+   "val": 1.8138,
+   "train": 1.7998
+  },
+  {
+   "step": 1400,
+   "train_s": 233.44,
+   "val": 1.7847,
+   "train": 1.7685
+  },
+  {
+   "step": 1500,
+   "train_s": 250.32,
+   "val": 1.7567,
+   "train": 1.7327
+  },
+  {
+   "step": 1600,
+   "train_s": 267.14,
+   "val": 1.7357,
+   "train": 1.7188
+  },
+  {
+   "step": 1700,
+   "train_s": 283.97,
+   "val": 1.7164,
+   "train": 1.6849
+  },
+  {
+   "step": 1800,
+   "train_s": 300.8,
+   "val": 1.7021,
+   "train": 1.6703
+  },
+  {
+   "step": 1900,
+   "train_s": 317.61,
+   "val": 1.6911,
+   "train": 1.6564
+  },
+  {
+   "step": 2000,
+   "train_s": 334.39,
+   "val": 1.683,
+   "train": 1.6441
+  }
+ ],
+ "final_val": 1.6857,
+ "samples": [
+  {
+   "prompt": "Once upon a time",
+   "text": "Once upon a time, there was a little girl named Lucy. She loved to play in her backyard. One day, she saw a big pile of leaves. She wanted to jump over them.\nLucy's mom saw her looking and said, \"Lucy, don't be stubborn. Let's remove the leaves off the leaves and put them away.\" Lucy felt sad but knew her mom was right. She put the leaves away and left them to play in another day.\nThe next day, Lucy saw a big pile of leaves. She ran to the pile and started to jump over them. It was so much fun! But her mom saw her and said, \"Lucy, you did a great job! You were so brave!\"\nFrom that day"
+  },
+  {
+   "prompt": "One day, a little girl named Lily",
+   "text": "One day, a little girl named Lily went for a walk in the woods. She saw many trees and animals she met was very happy. She loved to walk and play with her friends.\nAs Lily walked, she met a friendly squirrel. The squirrel had a big smile and a small nose. Lily and the squirrel played together every day. They ran and laughed and had lots of fun.\nAs the sun began to set, Lily said goodbye to her friends. She said, \"Bye bye, squirrel! See you soon!\" The squirrel went to sleep, but then turned around and went back home. Lily told her mom about the pretty forest and the squirrel who met her new friend. Her mom was proud of her for being kind and listening to her mom."
+  },
+  {
+   "prompt": "Tom had a big red ball.",
+   "text": "Tom had a big red ball. He loved to play with it every day. He would throw it, catch it, and bounce it. His friends liked the ball too.\nOne day, Tom saw a new red ball in the park. It was shiny and red. He wanted to play with it. But when he threw the ball, it flew over him. Tom was sad. He lost his ball.\nTom's mom saw him looking sad. She asked him what was wrong with his ball. Tom told her about the ball. He said he felt sorry for breaking the ball. He said he was sorry.\nMom smiled. She said she did not know. She said he could play with his ball for a while. She said maybe he could find his ball in"
+  }
+ ],
+ "median_step_ms": 167.94,
+ "train_seconds": 334.4
+}

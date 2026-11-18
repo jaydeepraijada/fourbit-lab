@@ -1,0 +1,101 @@
+{
+ "arm": "nvfp4",
+ "d": 8192,
+ "layers": 4,
+ "batch": 128,
+ "tokens_per_step": 32768,
+ "steps": 1000,
+ "lr": 0.0001,
+ "seed": 1,
+ "tag": "nvfp4_d8192_s1",
+ "gpu": "NVIDIA B200",
+ "n_params": 3290578944,
+ "n_mlp_params": 2147483648,
+ "vocab": 8192,
+ "vocab_coverage": 0.9978546369365813,
+ "log": [
+  {
+   "step": 0,
+   "train_s": 0.0,
+   "val": 10.875,
+   "train": 0.0
+  },
+  {
+   "step": 100,
+   "train_s": 39.9,
+   "val": 4.6318,
+   "train": 6.2998
+  },
+  {
+   "step": 200,
+   "train_s": 84.18,
+   "val": 3.8867,
+   "train": 4.3319
+  },
+  {
+   "step": 300,
+   "train_s": 128.36,
+   "val": 3.389,
+   "train": 3.6529
+  },
+  {
+   "step": 400,
+   "train_s": 172.66,
+   "val": 3.0747,
+   "train": 3.2294
+  },
+  {
+   "step": 500,
+   "train_s": 216.84,
+   "val": 2.8798,
+   "train": 2.9715
+  },
+  {
+   "step": 600,
+   "train_s": 261.13,
+   "val": 2.7124,
+   "train": 2.7901
+  },
+  {
+   "step": 700,
+   "train_s": 305.32,
+   "val": 2.5967,
+   "train": 2.6388
+  },
+  {
+   "step": 800,
+   "train_s": 349.6,
+   "val": 2.5007,
+   "train": 2.5292
+  },
+  {
+   "step": 900,
+   "train_s": 393.78,
+   "val": 2.4369,
+   "train": 2.4498
+  },
+  {
+   "step": 1000,
+   "train_s": 438.01,
+   "val": 2.398,
+   "train": 2.4009
+  }
+ ],
+ "final_val": 2.401,
+ "samples": [
+  {
+   "prompt": "Once upon a time",
+   "text": "Once upon a time, there was a little girl named Lucy. She loved to play in the park with her friends. One day, while playing, Lucy and her friends saw a big tree. The little girl was sad and went to play with the big, scary monster.\nThe little girl asked Lucy. The big monster said, \"Why can I play too?\" Lucy asked Lucy, \"I can't play with my big ball!\" Lucy felt sad, but she wanted to play with the little girl said \"I can't have the big red ball. I can lend it to Lucy and find it.\" Lucy was happy and thanked the big monster. The big blue ball and the big red ball went down. Lucy told her friends about playing catch the big red ball"
+  },
+  {
+   "prompt": "One day, a little girl named Lily",
+   "text": "One day, a little girl named Lily went to the park with her mom. They saw a big, blue slide and wanted to go on it. Lily said, \"Can I go on the slide?\" Tom asked.\n\"No, Lily, don't go too high. You might get lost,\" Lily said, might be careful.\n\"Don't be scared, Tom. I will go home,\" Mom said.\nMom gave Lily a hug and a kiss. \"Why will you go on the slide with me?\" Lily said, \"I don't want to go to the park. They go on the slide and slides. They will not go near the slide together.\"\nLily said, \"Don't worry, Tom. Let's go home and tell the other kids"
+  },
+  {
+   "prompt": "Tom had a big red ball.",
+   "text": "Tom had a big red ball. He loved to play with his ball, and he would throw it. One day, while he heard a noise outside his house. When he was playing, he saw a big, scary dog. The dog was running and jumping around. Tommy wanted to play with, but the dog was not scared. He barked loudly at the dog and barked at Tommy.\nTom was scared and ran back to his house. He grabbed the ball and ran to the dog and tried to stop. But the dog did not want to go away. He barked and chased and caught it. He was scared and sad. He wanted to eat it.\nTom saw a man crying and ran to help. He grabbed the dog. The dog sniffed and"
+  }
+ ],
+ "median_step_ms": 442.11,
+ "train_seconds": 438.0
+}

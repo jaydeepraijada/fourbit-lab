@@ -1,0 +1,93 @@
+{
+ "gpu": "NVIDIA B200",
+ "batch": 128,
+ "layers": 4,
+ "rows": [
+  {
+   "d": 4096,
+   "bf16": {
+    "forward_ms": 51.717,
+    "backward_ms": 99.113,
+    "optimizer_ms": 6.31,
+    "mlp_forward_ms": 26.5,
+    "mlp_backward_ms": 49.532,
+    "ops": {}
+   },
+   "fp8": {
+    "forward_ms": 40.225,
+    "backward_ms": 79.084,
+    "optimizer_ms": 6.055,
+    "mlp_forward_ms": 17.583,
+    "mlp_backward_ms": 31.408,
+    "ops": {
+     "bwd_fp8_gemm": 22.742,
+     "bwd_gelubwd_quant_fp8": 5.04,
+     "bwd_quant_fp8": 0.719,
+     "fwd_fp8_gemm": 10.703,
+     "fwd_gelu_quant_fp8": 2.798,
+     "fwd_quant_fp8": 0.397,
+     "fwd_w_quant_fp8": 0.552
+    }
+   },
+   "nvfp4": {
+    "forward_ms": 41.076,
+    "backward_ms": 77.735,
+    "optimizer_ms": 6.041,
+    "mlp_forward_ms": 18.143,
+    "mlp_backward_ms": 30.937,
+    "ops": {
+     "bwd_fp8_gemm": 22.455,
+     "bwd_gelubwd_quant_fp8": 4.844,
+     "bwd_quant_fp8": 0.706,
+     "fwd_gelu_quant_nvfp4": 6.282,
+     "fwd_nvfp4_gemm": 6.252,
+     "fwd_quant_nvfp4": 1.221,
+     "fwd_w_quant_nvfp4": 1.262
+    }
+   }
+  },
+  {
+   "d": 8192,
+   "bf16": {
+    "forward_ms": 167.307,
+    "backward_ms": 366.471,
+    "optimizer_ms": 26.006,
+    "mlp_forward_ms": 92.573,
+    "mlp_backward_ms": 197.881,
+    "ops": {}
+   },
+   "fp8": {
+    "forward_ms": 125.004,
+    "backward_ms": 276.895,
+    "optimizer_ms": 24.148,
+    "mlp_forward_ms": 55.43,
+    "mlp_backward_ms": 110.545,
+    "ops": {
+     "bwd_fp8_gemm": 92.312,
+     "bwd_gelubwd_quant_fp8": 11.133,
+     "bwd_quant_fp8": 1.448,
+     "fwd_fp8_gemm": 41.584,
+     "fwd_gelu_quant_fp8": 5.664,
+     "fwd_quant_fp8": 0.688,
+     "fwd_w_quant_fp8": 1.697
+    }
+   },
+   "nvfp4": {
+    "forward_ms": 116.307,
+    "backward_ms": 269.59,
+    "optimizer_ms": 24.38,
+    "mlp_forward_ms": 46.702,
+    "mlp_backward_ms": 107.132,
+    "ops": {
+     "bwd_fp8_gemm": 89.626,
+     "bwd_gelubwd_quant_fp8": 10.577,
+     "bwd_quant_fp8": 1.389,
+     "fwd_gelu_quant_nvfp4": 12.451,
+     "fwd_nvfp4_gemm": 22.034,
+     "fwd_quant_nvfp4": 2.266,
+     "fwd_w_quant_nvfp4": 4.26
+    }
+   }
+  }
+ ]
+}
